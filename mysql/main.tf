@@ -1,6 +1,6 @@
 provider "aws" {
   profile    = "default"
-  region     = "us-east-3"
+  region     = "us-east-4"
 }
 
 resource "aws_rds_cluster_instance" "cluster_instances" {
